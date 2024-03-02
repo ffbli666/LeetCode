@@ -9,6 +9,4 @@ var maximumOddBinaryNumber = function (s) {
     return `${`1`.repeat(map['1'] - 1)}${`0`.repeat(map['0'])}1`;
 };
 
-
-console.log(maximumOddBinaryNumber("010"));
-console.log(maximumOddBinaryNumber("0101"));
+module.exports = maximumOddBinaryNumber;

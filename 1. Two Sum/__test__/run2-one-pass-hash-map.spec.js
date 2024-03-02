@@ -1,5 +1,5 @@
 const twoSum = require('../run2-one-pass-hash-map');
-describe('Two Sum', () => {
+describe('1. Two Sum', () => {
     test('[2, 7, 11, 15], target=9 to equal [0, 1]', () => {
         expect(twoSum([2, 7, 11, 15], 9)).toEqual([0, 1]);
     });
