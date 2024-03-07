@@ -3,7 +3,7 @@ const hasCycle = require('../run1-hare-algorithm.js');
 function ListNode(val) {
     this.val = val;
     this.next = null;
- }
+}
 
 describe('141. Linked List Cycle', () => {
     //head = [3,2,0,-4], pos = 1
