@@ -5,7 +5,7 @@
  */
 var getCommon = function (nums1, nums2) {
     let c1 = 0;
-    let c2 = 0
+    let c2 = 0;
     while (c1 < nums1.length && c2 < nums2.length) {
         if (nums1[c1] === nums2[c2]) {
             return nums1[c1];
