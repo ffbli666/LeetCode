@@ -13,6 +13,8 @@ describe('141. Linked List Cycle', () => {
         const node2 = new ListNode(2, node3);
         const node1 = new ListNode(1, node2);
         expect(middleNode(node1)).toEqual(node3);
+        expect(node3.next).toEqual(node4);
+        expect(node4.next).toEqual(node5);
     });
     test('[1,2,3,4,5,6] to equal [4,5,6]', () => {
         const node6 = new ListNode(6);
@@ -22,6 +24,8 @@ describe('141. Linked List Cycle', () => {
         const node2 = new ListNode(2, node3);
         const node1 = new ListNode(1, node2);
         expect(middleNode(node1)).toEqual(node4);
+        expect(node4.next).toEqual(node5);
+        expect(node5.next).toEqual(node6);
     });
 });
 
