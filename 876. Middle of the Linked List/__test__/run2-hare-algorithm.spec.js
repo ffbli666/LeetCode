@@ -5,7 +5,7 @@ function ListNode(val, next) {
     this.next = (next === undefined ? null : next)
 }
 
-describe('141. Linked List Cycle', () => {
+describe('876. Middle of the Linked List', () => {
     test('[1,2,3,4,5] to equal [3,4,5]', () => {
         const node5 = new ListNode(5);
         const node4 = new ListNode(4, node5);
