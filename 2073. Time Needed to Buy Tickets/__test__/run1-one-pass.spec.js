@@ -1,4 +1,4 @@
-const timeRequiredToBuy = require('../run1-two-pointer.js');
+const timeRequiredToBuy = require('../run1-one-pass.js');
 
 
 describe('2073. Time Needed to Buy Tickets', () => {
